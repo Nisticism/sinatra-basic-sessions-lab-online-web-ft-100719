@@ -15,7 +15,7 @@ class App < Sinatra::Base
     @session = session
     session['item'] = params['item']
     @item = params['item']
-    @item
+    puts #{@item}
   end
   
   
